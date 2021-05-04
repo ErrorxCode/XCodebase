@@ -1,6 +1,6 @@
 # XCodebase ~ an android api to save variables online.
 
-***This is an easy-to-use android api by which you can save & retrive data from an open-source database. just one word i.e ``` getX() & saveX() ``` (where X is type of variable) respectively for retriving & saving. No money, No time waste, No knowledge ,No Account Recquired. Just impliment & use***
+***This is an easy-to-use android api by which you can save & retrive data from an open-source database. just one word i.e ``` getX() & saveX() ``` (where X is type of variable) respectively for retriving & saving. No money, No time waste, No knowledge ,No Account Recquired. Just impliment & use.***
 
 
 ## Implimentation
@@ -14,13 +14,14 @@ See [this library](https://github.com/ErrorxCode/OTP-Verification-Api) for more 
 ### Pros
 - Easy, simple & lightweight
 - No money, No time waste, No knowledge, No Account Recquired.
-- Best for simple data operations & small apps.
+- Best for simple CRUD operations & small apps.
 - Stores data in key-value pair
 
 ### Cons
 - Not for complex querying or sorting data.
 -  Limitation : Database Storage	0.25 GB
--  Limitation : Total Requests/month	10 K
+-  Limitation : Total Requests/month  10 K
+- The usage of limitation is counted for all
 
 
 
@@ -63,4 +64,14 @@ delete(String id,response);
 - *response : The callback which is invoked when performing any CRUD operation. You may pass null if you don't want to implement this.
 - *value : The value of 'X' variable to update or to save.
 
+
+
+
+## Support us
+**If you like my hard work, please give this repo a star 🌟 & Nothing else.**
+**Also check my other repos. Thank you !**
+
+
+[Join our telegram ](http://t.me/TeamDestroyerss)
+[Subscribe my youtube](https://www.youtube.com/channel/UCcQS2F6LXAyuE_RXoIQxkMA)
 
