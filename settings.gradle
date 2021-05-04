@@ -1,0 +1,2 @@
+include ':XCodebase'
+rootProject.name = "XCode"
