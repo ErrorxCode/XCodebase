@@ -4,10 +4,22 @@
 
 
 ## Implimentation
-
-
-
-
+Add maven to root build.gradle
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+To your module build.gradle
+```
+dependencies {
+            implementation 'com.github.ErrorxCode:XCodebase:1.0'
+            implementation 'com.github.ErrorxCode:OTP-Verification-Api:2.5.0'  // optional, implement if you want to use email verification
+}
+```
 See [this library](https://github.com/ErrorxCode/OTP-Verification-Api) for more information regarding Email Verification.
 
 
