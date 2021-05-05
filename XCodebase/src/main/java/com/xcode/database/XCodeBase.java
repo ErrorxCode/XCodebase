@@ -45,8 +45,8 @@ public class XCodeBase {
      *
      * @param PackageName The package for your application.
      */
-    public static void initialize(Context context,String PackageName) {
-        CLASS = PackageName;
+    public static void initialize(Context context) {
+        CLASS = context.getPackageName().replace('.','_');
         query = ParseQuery.getQuery(CLASS);
         object = new ParseObject(CLASS);
         Parse.initialize(new Parse.Configuration.Builder(context)
