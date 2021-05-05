@@ -44,6 +44,7 @@ OnXCodebaseResponse response =  new OnXCodebaseResponse(){
             @Override
             public void onSuccessful(@Nullable Object object) {
                 // This object contains variable of the 'X' type that you have requested.
+		// You can get the value by using parseX(object); method
             }
 
             @Override
