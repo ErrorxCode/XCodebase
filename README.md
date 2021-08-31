@@ -1,3 +1,4 @@
+![Project frozen](https://img.shields.io/badge/Status-Frozen-blue.png) ![Project unmaintained](https://img.shields.io/badge/Project-unmaintained-red.svg)
 # XCodebase ~ an android api to save variables online.
 
 ***This is an easy-to-use android api by which you can save & retrive data from an open-source database. just one word i.e ``` getX() & saveX() ``` (where X is type of variable) respectively for retriving & saving. No money, No time waste, No knowledge ,No Account Recquired. Just impliment & use.***
